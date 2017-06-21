@@ -746,6 +746,10 @@
 			margin-left: 8.33333%;
 		}
 
+		.links {
+			text-decoration: none !important;
+		}
+
 	}
 
 /* Basic */
@@ -915,6 +919,16 @@
 		color: #aaa;
 	}
 
+	a:-webkit-any-link {
+	    color: #46a3dc;
+	    text-decoration: none;
+	    cursor: auto;
+	}
+
+    a:hover {
+    	opacity: 0.5;
+    }
+
 /* Image */
 
 	.image {
@@ -951,6 +965,7 @@
 				margin: 0 auto;
 				width: auto;
 			}
+
 
 /* Button */
 
