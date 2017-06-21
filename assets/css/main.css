@@ -851,7 +851,8 @@
 		margin: 0 0 1em 0;
 	}
 
-	form input[type="text"],
+	form input[type="name"],
+	form input[type="subject"],
 	form input[type="email"],
 	form input[type="password"],
 	form select,
@@ -867,7 +868,8 @@
 		transition: background-color .25s ease-in-out;
 	}
 
-		form input[type="text"]:focus,
+		form input[type="name"]:focus,
+		form input[type="subject"]:focus,
 		form input[type="email"]:focus,
 		form input[type="password"]:focus,
 		form select:focus,
@@ -875,7 +877,8 @@
 			background: #f8f8f8;
 		}
 
-	form input[type="text"],
+	form input[type="name"],
+	form input[type="subject"],
 	form input[type="email"],
 	form input[type="password"],
 	form select {
